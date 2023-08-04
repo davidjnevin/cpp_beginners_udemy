@@ -34,3 +34,4 @@
 # Specific folders
 debug/*
 build/*
+.ccls-cache/*
