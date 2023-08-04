@@ -31,3 +31,6 @@
 *.out
 *.app
 
+# Specific folders
+debug/*
+build/*
