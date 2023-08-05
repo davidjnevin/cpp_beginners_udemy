@@ -35,3 +35,7 @@
 debug/*
 build/*
 **/.ccls-cache/*
+/.vs/cpp_beginners_udemy/config
+/.vs/cpp_beginners_udemy/FileContentIndex
+/.vs
+/CppProperties.json
