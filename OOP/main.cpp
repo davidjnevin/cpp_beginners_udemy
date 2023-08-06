@@ -2,6 +2,10 @@
 #include "Cat.h"
 
 int main() {
-  speak();
+  Cat cat;
+
+	cat.speak();
+	cat.jump();
+	cat.speak();
   return 0;
 }

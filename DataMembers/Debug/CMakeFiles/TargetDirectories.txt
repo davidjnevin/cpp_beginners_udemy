@@ -1,0 +1,3 @@
+/Users/Communitymanager-work/Desktop/code/cpp_udemy_complete_beginners/DataMembers/Debug/CMakeFiles/DataApp.dir
+/Users/Communitymanager-work/Desktop/code/cpp_udemy_complete_beginners/DataMembers/Debug/CMakeFiles/edit_cache.dir
+/Users/Communitymanager-work/Desktop/code/cpp_udemy_complete_beginners/DataMembers/Debug/CMakeFiles/rebuild_cache.dir
