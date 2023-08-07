@@ -32,10 +32,10 @@
 *.app
 
 # Specific folders
-**/debug/*
-**/Debug/*
-**/build/*
-**/Build/*
+debug/
+Debug/
+build/
+Build/
 **/.ccls-cache/*
 /.vs/cpp_beginners_udemy/config
 /.vs/cpp_beginners_udemy/FileContentIndex
