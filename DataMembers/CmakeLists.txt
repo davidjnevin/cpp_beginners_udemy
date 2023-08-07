@@ -10,7 +10,7 @@ project(DataApp VERSION 1.0)
 include_directories(include)
 
 # Add the executables
-add_executable(DataApp main.cpp include/Cat.cpp)
+add_executable(DataApp main.cpp include/Cat.cpp include/Person.cpp)
 
 # Librarie
 # target_link_libraries(LoginApp PRIVATE your_library)

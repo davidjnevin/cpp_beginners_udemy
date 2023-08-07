@@ -1,15 +1,23 @@
-#include <iostream>
 #include "Cat.h"
+#include "Person.h"
+#include <iostream>
 
 int main() {
-	Cat jim;
+  {
+    Cat jim;
+    // jim.makeHappy();
+    jim.speak();
 
-	// jim.makeHappy();
-	jim.speak();
+    Cat bob;
+    bob.makeSad();
+    bob.speak();
+  }
 
-	Cat bob;
+  Person person;
+  std::cout << person.toString() << std::endl;
 
-	bob.makeSad();
-	bob.speak();
-	return 0;
+	person.setName("Bob");
+  std::cout << person.toString() << std::endl;
+  std::cout << person.getName() << std::endl;
+  return 0;
 }
