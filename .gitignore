@@ -33,7 +33,9 @@
 
 # Specific folders
 **/debug/*
-build/*
+**/Debug/*
+**/build/*
+**/Build/*
 **/.ccls-cache/*
 /.vs/cpp_beginners_udemy/config
 /.vs/cpp_beginners_udemy/FileContentIndex
