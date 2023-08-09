@@ -1,3 +1,5 @@
+// Pointers are an integer that stores a memory address.
+
 #include <iostream>
 
 void manipulate(double *pvalue) { // pointer to double
