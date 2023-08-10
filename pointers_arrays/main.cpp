@@ -16,7 +16,7 @@ int main() {
 
   std::cout << sizeof(texts) / sizeof(std::string) << std::endl;
 
-  int length = sizeof(texts) / sizeof(std::string);
+  const int length = sizeof(texts) / sizeof(std::string);
 
   for (int i = 0; i < length; i++) {
     // Iterate through the array using the array index
