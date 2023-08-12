@@ -58,7 +58,7 @@ int main(){
 	(*pfrog).speak(); // dereference the pointer, then call speak()
 	pfrog->speak(); // same as above, but using the -> operator
 	// to dereference the pointer and call speak()
-	delete pfrog; // delete the object from the heap
+	delete pfrog;
 
 	return 0;
 }
