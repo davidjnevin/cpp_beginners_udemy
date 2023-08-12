@@ -1,6 +1,7 @@
+#include <iostream>
+
 #include "Cat.h"
 #include "Person.h"
-#include <iostream>
 
 int main() {
   {
@@ -16,7 +17,7 @@ int main() {
   Person person;
   std::cout << person.toString() << std::endl;
 
-	person.setName("Bob");
+  person.setName("Bob");
   std::cout << person.toString() << std::endl;
   std::cout << person.getName() << std::endl;
   return 0;

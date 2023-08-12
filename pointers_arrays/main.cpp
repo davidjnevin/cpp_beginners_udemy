@@ -5,7 +5,6 @@
 #define LOG(x) std::cout << x << std::endl
 
 int main() {
-
   // Ponters and arrays
   std::string texts[] = {"one", "two", "three"};
 
@@ -30,34 +29,34 @@ int main() {
   // std::cout << pTexts[i] << " " << std::flush;
   // }
   //
-	NEWLINE();
+  NEWLINE();
 
   for (int i = 0; i < length; i++, pTexts++) {
     // Iterate through the array using a dereferencing pointer index
     std::cout << *pTexts << " " << std::flush;
   }
 
-	NEWLINE();
+  NEWLINE();
 
-	// loop through and array by comparing pointers
+  // loop through and array by comparing pointers
 
-	// Define pointer to the first element of the array
-	std::string *pElement = texts;
-	// Define pointer to the last element of the array
-	std::string *pEnd = &texts[length - 1];
+  // Define pointer to the first element of the array
+  std::string *pElement = texts;
+  // Define pointer to the last element of the array
+  std::string *pEnd = &texts[length - 1];
 
-	bool keepgoing = true;
+  bool keepgoing = true;
 
-	while(keepgoing) {
-		std::cout << *pElement << " " << std::flush;
+  while (keepgoing) {
+    std::cout << *pElement << " " << std::flush;
 
-		if (pElement == pEnd) {
-			keepgoing = false;
-		}
-		NEWLINE();
-		std::cout << pElement << " " << std::flush;
-		pElement++;
-	}
+    if (pElement == pEnd) {
+      keepgoing = false;
+    }
+    NEWLINE();
+    std::cout << pElement << " " << std::flush;
+    pElement++;
+  }
 
   return 0;
 }

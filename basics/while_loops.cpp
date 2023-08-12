@@ -10,7 +10,7 @@ int main() {
   }
 
   std::cout << "Do while loop" << std::endl;
-	i = 0;
+  i = 0;
   do {
     std::cout << i << std::endl;
     i++;

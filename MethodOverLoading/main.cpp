@@ -1,14 +1,14 @@
 #include <iostream>
+
 #include "Person.h"
 
-
 int main() {
-	Person person;
-	person.setName("George");
-	person.setAge(32);
-	Person person2("Susana", 42);
-	std::cout << person.toString() << std::endl;
-	std::cout << person2.toString() << std::endl;
+  Person person;
+  person.setName("George");
+  person.setAge(32);
+  Person person2("Susana", 42);
+  std::cout << person.toString() << std::endl;
+  std::cout << person2.toString() << std::endl;
 
-	return 0;
+  return 0;
 }

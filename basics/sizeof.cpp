@@ -1,7 +1,6 @@
 #include <iostream>
 
 int main() {
-
   int values[] = {4, 7, 3, 4};
 
   std::cout << "sizeof(int): " << sizeof(values) << std::endl;
@@ -36,7 +35,8 @@ int main() {
 
   // Using a for loop and size of to output a multidimensional array
   for (unsigned int i = 0; i < sizeof(animals) / sizeof(animals[0]); i++) {
-    for (unsigned int j = 0; j < sizeof(animals[0]) / sizeof(animals[0][0]); j++) {
+    for (unsigned int j = 0; j < sizeof(animals[0]) / sizeof(animals[0][0]);
+         j++) {
       std::cout << animals[i][j] << " " << std::flush;
     }
     std::cout << std::endl;

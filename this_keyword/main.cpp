@@ -1,5 +1,6 @@
-#include "Person.h"
 #include <iostream>
+
+#include "Person.h"
 
 int main() {
   Person person;

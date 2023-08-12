@@ -1,5 +1,7 @@
-#include "Person.h"
-#include <iostream>
+#include <iostream>  // for operator<<, basic_ostream, char_traits, endl, cout
+#include <string>    // for basic_string
+
+#include "Person.h"  // for Person
 
 int main() {
   Person person1;

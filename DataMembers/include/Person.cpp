@@ -1,23 +1,16 @@
-#include <iostream>
 #include "Person.h"
 
+#include <iostream>
+
 Person::Person() {
-	std::cout << "Person created." << std::endl;
-	name = "George";
+  std::cout << "Person created." << std::endl;
+  name = "George";
 }
 
-Person::~Person() {
-	std::cout << "Person destroyed." << std::endl;
-}
+Person::~Person() { std::cout << "Person destroyed." << std::endl; }
 
-std::string Person::toString() {
-	return "Person's name is: " + name;
-}
+std::string Person::toString() { return "Person's name is: " + name; }
 
-void Person::setName(std::string newName) {
-	name = newName;
-}
+void Person::setName(std::string newName) { name = newName; }
 
-std::string Person::getName() {
-	return name;
-}
+std::string Person::getName() { return name; }

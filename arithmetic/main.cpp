@@ -1,8 +1,10 @@
-#include <iostream>
+#include <iostream>  // for operator<<, basic_ostream, char_traits, endl, cout
+#include <string>    // for basic_string
+
+#include "Person.h"  // for Person
 // #define LOG(x) std::cout << x << std::endl
 
 int main() {
-
   int total_seconds = 458000;
 
   // Calculate Days
@@ -22,7 +24,7 @@ int main() {
 
   int seconds = remainder;
 
-	std::cout << "Total Seconds: " << total_seconds << std::endl;
+  std::cout << "Total Seconds: " << total_seconds << std::endl;
   std::cout << days << " days, " << hours << " hours, " << minutes
             << " minutes, and " << seconds << " seconds\n";
 

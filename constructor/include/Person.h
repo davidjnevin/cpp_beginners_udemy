@@ -1,15 +1,15 @@
 #ifndef PERSON_H
 #define PERSON_H
 
-#include <iostream>
 #include <sstream>
+#include <string>
 
 class Person {
-private:
+ private:
   int age;
   std::string name;
 
-public:
+ public:
   Person();
 
   Person(std::string name, int age);
@@ -20,4 +20,4 @@ public:
   std::string toString();
 };
 
-#endif // PERSON_H
+#endif  // PERSON_H

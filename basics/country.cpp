@@ -1,7 +1,6 @@
 #include <iostream>
 
 int main() {
-
   std::string country;
 
   std::cout << "Where do you live?" << std::endl;

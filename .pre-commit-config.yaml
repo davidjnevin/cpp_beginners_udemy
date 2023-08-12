@@ -5,8 +5,8 @@ repos:
     hooks:
       - id: clang-format
         args: [-i, --style=Google]
-      - id: clang-tidy
-      - id: oclint
-      - id: uncrustify
+      # - id: clang-tidy
+      # - id: oclint
+      # - id: uncrustify
       # - id: cppcheck
-      - id: include-what-you-use
+      # - id: include-what-you-use

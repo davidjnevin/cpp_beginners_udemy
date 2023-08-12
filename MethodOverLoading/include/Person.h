@@ -5,20 +5,18 @@
 #include <sstream>
 
 class Person {
-private:
-	int age;
-	std::string name;
-public:
-	Person();
-	Person(std::string newName, int newAge);
+ private:
+  int age;
+  std::string name;
 
-	void setName(std::string newName);
-	void setAge(int newAge);
+ public:
+  Person();
+  Person(std::string newName, int newAge);
 
-	std::string toString();
+  void setName(std::string newName);
+  void setAge(int newAge);
+
+  std::string toString();
 };
 
-
-
-
-#endif // PERSON_H
+#endif  // PERSON_H

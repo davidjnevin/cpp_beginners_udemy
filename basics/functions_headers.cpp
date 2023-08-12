@@ -1,12 +1,11 @@
 #include <iostream>
+
 #include "functions_utils.h"
 
 int main() {
   showMenu();
   int input = getInput();
-	processInput(input);
+  processInput(input);
 
   return 0;
 }
-
-
